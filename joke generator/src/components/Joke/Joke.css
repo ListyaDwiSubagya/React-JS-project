@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(47, 97, 80);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.joke {
+    width: auto;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: beige;
+}
+
+h1 {
+    text-align: center;
+    color: beige;
+}
