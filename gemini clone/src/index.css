@@ -10,9 +10,20 @@
 #root {
   min-height: 100vh;
   display: flex;
+  animation: fadeIn 1.5s;
 }
 
 .app-container {
   display: flex;
   width: 100%;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100%{
+    opacity: 1;
+  }
 }
