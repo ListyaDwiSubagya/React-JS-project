@@ -27,6 +27,7 @@ const Navbar = () => {
         toast.error(error.message)
       }
     }
+      
 
     const logout = async () => {
       try {

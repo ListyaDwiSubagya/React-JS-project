@@ -9,11 +9,11 @@ const EmailVerify = () => {
 
   const navigate = useNavigate()
 
-  const inputRefs = React.useRef([])
-
+  
   axios.defaults.withCredentials = true;
   const {backendUrl, isLoggedIn, getUserData, userData} = useContext(AppContext)
-
+  const inputRefs = React.useRef([])
+  
   const  handlerInput = (e, index) => {
     if (e.target.value.length > 0 && index < inputRefs.current.length -1) {
       inputRefs.current[index + 1].focus();
